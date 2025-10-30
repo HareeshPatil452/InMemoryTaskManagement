@@ -1,64 +1,88 @@
-In-Memory Task Management System
-📘 Project Overview
-The In-Memory Task Management System is a web-based application developed using ASP.NET Core MVC.
-It helps users organize daily activities, set deadlines, and track progress—all without any database.
-Tasks are stored temporarily in memory, making the project ideal for learning, demos, and college submissions.
+# 📝 In-Memory Task Management System
 
-🚀 Features
-Task Management
+![.NET](https://img.shields.io/badge/.NET%208.0-blueviolet?style=for-the-badge)
+![C#](https://img.shields.io/badge/C%23-Programming-green?style=for-the-badge)
+![ASP.NET MVC](https://img.shields.io/badge/ASP.NET%20Core-MVC-blue?style=for-the-badge)
+![Status](https://img.shields.io/badge/Project-Completed-success?style=for-the-badge)
 
-Add, edit, view, and delete tasks
+---
 
-Assign category and priority
+## 📘 Project Overview
 
-Set deadlines and completion status
+The **In-Memory Task Management System** is a web-based application developed using **ASP.NET Core MVC**.  
+It helps users organize daily activities, set deadlines, and track task progress — **without using any database**.  
+Tasks are stored temporarily in memory, making it ideal for learning, demos, or college submissions.
 
-Attractive Dashboard
+---
 
-Responsive, user-friendly interface
+## 🚀 Features
 
-Visual separation for priorities and statuses
+- 📋 **Task Management**
+  - Add, edit, view, and delete tasks  
+  - Assign category and priority  
+  - Set deadlines and completion status  
 
-Easy navigation for managing tasks
+- 🖥️ **Attractive Dashboard**
+  - Responsive, user-friendly interface  
+  - Visual separation for priorities and statuses  
+  - Easy navigation for managing tasks  
 
-🧩 Technologies Used
-Category	Technologies
-Framework	ASP.NET Core MVC 8.0
-Language	C#
-Storage	In-memory (No Database)
-Frontend	HTML5, CSS3, Bootstrap 5
-IDE / Tools	Visual Studio 2022, .NET SDK 8.0
-⚙️ Project Setup Guide
-✅ Prerequisites
+---
+
+## 🧩 Technologies Used
+
+|     Category    |             Technologies         |
+|-----------------|----------------------------------|
+|   **Framework** |        ASP.NET Core MVC 8.0      |
+|   **Language**  |                C#                |
+|   **Storage**   |     In-memory (No Database)      |
+|   **Frontend**  |     HTML5, CSS3, Bootstrap 5     |
+| **IDE / Tools** | Visual Studio 2022, .NET SDK 8.0 |
+
+---
+
+## ⚙️ Project Setup Guide
+
+### ✅ Prerequisites
 Before running the project, make sure you have:
+- [.NET 8 SDK](https://dotnet.microsoft.com/en-us/download)
+- [Visual Studio 2022](https://visualstudio.microsoft.com/) with ASP.NET and web development workload
+- [Git](https://git-scm.com/) (optional for cloning)
 
-.NET 8 SDK
+---
 
-Visual Studio 2022 with ASP.NET and web development workload
+2. **Open the Project**
+ - Open the project in Visual Studio
 
-Git (optional, for cloning)
+3. **Run the Application**
+ - In terminal run:
+   ```
+   dotnet run
+   ```
+ - The app will launch automatically in your default browser
 
-💾 Data Storage
-All tasks are stored in-memory.
+---
 
-Data is cleared when the application stops or restarts.
+### 💾 Data Storage
 
-📊 Modules Overview
-Task Module
+  Instead of a database, this project stores all tasks in-memory during the run session.  
+  **All data is cleared when the application stops or restarts.**
 
-List all tasks with title, due date, priority, and status
+---
 
-Add/Edit/Delete tasks with category, priority, and completion
+### 📊 Modules Overview
 
-UI Module
+**📋 Task Module**
+  - List all tasks with title, due date, priority, and status
+  - Add/Edit/Delete tasks with category, priority, and completion
 
-Color-coded badges for priority and status
+**🎨 UI Module**
+  - Color-coded badges for priority and status
+  - Responsive forms and tables with Bootstrap styling
 
-Responsive forms and tables with Bootstrap
+---
 
-🧑‍💻 Author
-Hareesh Patil (202303103510452)
-
-Asha M. Tarsadia Institute of Computer Science and Technology
-
-B.Tech, 5th Semester – DotNet Project
+### 🧑‍💻 Author
+  **Hareesh Patil (202303103510452)**
+  - 🎓 Asha M. Tarsadia Institute of Computer Science and Technology
+  - 📅 B.Tech, Semester/Year – DotNet Project
